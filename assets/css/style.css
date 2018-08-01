@@ -1,0 +1,283 @@
+
+/* General */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}   
+body {
+    background-color: rgb(214, 214, 214);
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold; 
+}
+h6 {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+a, p, form {
+    font-size: 16px;
+    color: rgb(141, 126, 144);
+}
+P {
+    line-height: 150%;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_back {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: rgb(140, 0, 175);
+}
+.first_title {
+    background-color: rgb(140, 0, 175);
+    color: white;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    padding: 0 20px;
+}
+.buttons {
+    display: flex;
+}
+.button {
+    padding: 15px;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+    font-weight: bold;
+}
+.button:last-child {
+    border: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(140, 0, 175);
+}
+.current {
+    color: rgb(168, 93, 187);
+    border-color: rgb(141, 126, 144);
+    animation-name: changcolor; /* animation for fun */
+    animation-duration: 1s;
+}
+@keyframes changcolor { /* animation for fun */
+    from {background-color: rgb(255, 255, 255);}
+    to {background-color: rgb(251, 231, 255);}
+}
+.current:hover {
+    color: rgb(140, 0, 175);
+    border-color: rgb(140, 0, 175);
+}
+
+/* Info */
+
+.info {
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    min-height: 430px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.second_title {
+    display: block;
+    color: rgb(140, 0, 175);
+    padding: 30px 0 30px 0;
+    margin: 0 20px 0 20px;
+    width: 920px;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: rgb(140, 0, 175);
+}
+.inner_cont {
+    width: 920px;
+    margin: 0 auto;
+}
+
+/* About */
+
+.About img {
+    padding: 20px 20px 20px 0;
+    width: 200px;
+    height: auto;
+    float: left;
+}
+.About p {
+    padding: 20px 0 0 0;
+}
+.About p:last-child {
+    padding: 20px 0 20px 0;
+}
+
+/* Portfolio */
+
+.project_box {
+    padding:20px 0 0 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#project_1, #project_2, #project_3,
+#project_4, #project_5, #project_6 {
+    background-color: rgb(141, 126, 144);
+    height: 200px;
+    width: 280px;
+    background-size: cover;
+    display: flex;
+    margin: 10px;
+}
+#project_1 {
+    background-image: url("http://www.wnnca.org/couch/uploads/image/plants-animals/birds/thumb300x200/White-crowned-Sparrow.jpg");
+}
+#project_2 {
+    background-image: url("http://www.dannygreenphotography.com/media/Moorland%20BOP%20guest%20gallery%20images/Ron%20Brown%20Golden%20Eagle-.jpg");
+}
+#project_3 {
+    background-image: url("http://www.pgecurrents.com/wp-content/uploads/2013/02/300x200_Lights-Out-for-Birds-Western-Tanager.jpg");
+}
+#project_4 {
+    background-image: url("http://www.dannygreenphotography.com/media/Moorland%20BOP%20guest%20gallery%20images/Ron%20Brown%20Peregrine-3590.jpg");
+}
+#project_5 {
+    background-image: url("https://ssl.c.photoshelter.com/img-get/I0000XzT1KKiKmcY/s/860/860/Chris%20Morton%20Hungarian%20Spring%20Birds%203.jpg");
+}
+#project_6 {
+    background-image: url("https://kidsanimalsfacts.com/wp-content/uploads/2017/10/Yellow-shouldered_Blackbird.jpg");
+}
+span {
+    width: 280px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgb(168, 93, 187);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    align-self: flex-end;
+    position: relative;
+    right:10px;
+}
+
+/* Contact */
+
+input {
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding-left: 5px;
+}
+input[type=submit] {
+    height: 40px;
+    background-color: rgb(140, 0, 175);
+    color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-color: rgb(168, 93, 187);
+    border-radius: 6px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: rgb(168, 93, 187);
+    border-color: rgb(140, 0, 175);
+}
+
+/* Footer */
+
+footer {
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.footer_back {
+    width: 100%;
+    background-color: rgb(141, 126, 144);
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    border-color: rgb(140, 0, 175); 
+}
+.container h6 {
+    padding-bottom: 20px;
+}
+
+/* using the "@media screen" for screen changes */
+
+@media (max-width: 980px) {
+    
+    .container {
+        width: unset;
+    } 
+    .info {
+        margin: 25px 10px 0 10px;
+    }
+    .inner_cont {
+        width: unset;
+        padding: 0 20px 0 20px;
+    }
+    .second_title {
+        width: unset;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Portfolio */
+    #project_1, #project_2, #project_3,
+    #project_4, #project_5, #project_6 {
+        width: 275px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    header {
+        display: block;
+        position: static; /* no need for that property */
+    }
+    .header_back {
+        height: 140px; 
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+    .button {
+        width: 33.3%;
+        margin-top: 5px;
+        text-align: center;
+    }
+    /* About */
+    .About img {
+        padding: 20px 0 20px 0;
+        width: 100%;
+    }
+    /* Portfolio */
+    #project_1, #project_2, #project_3,
+    #project_4, #project_5, #project_6 {
+        width: 100%;
+    }
+}
