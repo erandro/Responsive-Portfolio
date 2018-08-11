@@ -142,6 +142,7 @@ a:hover {
     height: 200px;
     width: 280px;
     background-size: cover;
+    background-position: center;
     display: flex;
     margin: 10px;
 }
@@ -149,10 +150,10 @@ a:hover {
     background-image: url("https://mir-s3-cdn-cf.behance.net/projects/404/18830259.54b1befb11f38.png");
 }
 #project_2 {
-    background-image: url("../images/project_1.JPG");
+    background-image: url("../images/project_2.JPG");
 }
 #project_3 {
-    background-image: url("http://www.pgecurrents.com/wp-content/uploads/2013/02/300x200_Lights-Out-for-Birds-Western-Tanager.jpg");
+    background-image: url("../images/project_3.JPG");
 }
 #project_4 {
     background-image: url("http://www.dannygreenphotography.com/media/Moorland%20BOP%20guest%20gallery%20images/Ron%20Brown%20Peregrine-3590.jpg");
