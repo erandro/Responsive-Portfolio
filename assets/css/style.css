@@ -137,7 +137,8 @@ a:hover {
     flex-wrap: wrap;
 }
 #project_1, #project_2, #project_3,
-#project_4, #project_5, #project_6 {
+#project_4, #project_5, #project_6,
+#project_7 {
     background-color: rgb(141, 126, 144);
     height: 200px;
     width: 280px;
@@ -164,6 +165,15 @@ a:hover {
 #project_6 {
     background-image: url("../images/project_6.jpg");
 }
+#project_7 {
+    background-image: url("../images/project_7.jpg");
+}
+/* #project_8 {
+    background-image: url("../images/project_8.jpg");
+}
+#project_9 {
+    background-image: url("../images/project_9.jpg");
+} */
 span {
     width: 280px;
     line-height: 30px;
@@ -247,7 +257,8 @@ footer {
 
     /* Portfolio */
     #project_1, #project_2, #project_3,
-    #project_4, #project_5, #project_6 {
+    #project_4, #project_5, #project_6,
+    #project_7, #project_8, #project_9 {
         width: 275px;
         margin: 5px;
     }
@@ -278,7 +289,8 @@ footer {
     }
     /* Portfolio */
     #project_1, #project_2, #project_3,
-    #project_4, #project_5, #project_6 {
+    #project_4, #project_5, #project_6,
+    #project_7, #project_8, #project_9 {
         width: 100%;
     }
 }
