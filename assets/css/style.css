@@ -138,7 +138,8 @@ a:hover {
 }
 #project_1, #project_2, #project_3,
 #project_4, #project_5, #project_6,
-#project_7, #project_8, #project_9 {
+#project_7, #project_8, #project_9,
+#project_10, #project_11, #project_12 {
     background-color: rgb(141, 126, 144);
     height: 200px;
     width: 280px;
@@ -174,6 +175,18 @@ a:hover {
 #project_9 {
     background-image: url("../images/project_9.jpg");
 }
+#project_10{
+    background-image: url("../images/project_10.jpg");
+}
+
+
+#project_11{
+    background-image: url("../images/project_11.jpg");
+}
+#project_12{
+    background-image: url("../images/project_12.jpg");
+}
+
 span {
     width: 280px;
     line-height: 30px;
@@ -258,7 +271,8 @@ footer {
     /* Portfolio */
     #project_1, #project_2, #project_3,
     #project_4, #project_5, #project_6,
-    #project_7, #project_8, #project_9 {
+    #project_7, #project_8, #project_9,
+    #project_10, #project_11, #project_12 {
         width: 275px;
         margin: 5px;
     }
@@ -290,7 +304,8 @@ footer {
     /* Portfolio */
     #project_1, #project_2, #project_3,
     #project_4, #project_5, #project_6,
-    #project_7, #project_8, #project_9 {
+    #project_7, #project_8, #project_9,
+    #project_10, #project_11, #project_12 {
         width: 100%;
     }
 }
