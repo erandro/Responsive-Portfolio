@@ -139,7 +139,8 @@ a:hover {
 #project_1, #project_2, #project_3,
 #project_4, #project_5, #project_6,
 #project_7, #project_8, #project_9,
-#project_10, #project_11, #project_12 {
+#project_10, #project_11, #project_12,
+#project_13, #project_14, #project_15 {
     background-color: rgb(141, 126, 144);
     height: 200px;
     width: 280px;
@@ -183,6 +184,15 @@ a:hover {
 }
 #project_12{
     background-image: url("../images/project_12.jpg");
+}
+#project_13{
+    background-image: url("../images/project_13.jpg");
+}
+#project_14{
+    background-image: url("../images/project_14.jpg");
+}
+#project_15{
+    background-image: url("../images/project_15.jpg");
 }
 
 span {
@@ -270,7 +280,8 @@ footer {
     #project_1, #project_2, #project_3,
     #project_4, #project_5, #project_6,
     #project_7, #project_8, #project_9,
-    #project_10, #project_11, #project_12 {
+    #project_10, #project_11, #project_12,
+    #project_13, #project_14, #project_15 {
         width: 275px;
         margin: 5px;
     }
@@ -303,7 +314,8 @@ footer {
     #project_1, #project_2, #project_3,
     #project_4, #project_5, #project_6,
     #project_7, #project_8, #project_9,
-    #project_10, #project_11, #project_12 {
+    #project_10, #project_11, #project_12,
+    #project_13, #project_14, #project_15 {
         width: 100%;
     }
 }
